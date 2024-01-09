@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <link rel="stylesheet" href="/Assignment/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class=" d-flex gap-3  gap-lg-5  justify-content-end  ">
+        <a class="nav-link " href="#">Home</a>
+        <a class="nav-link "href="#">Content</a>
+        <a class="nav-link "href="#">About</a>
+        <a class="nav-link " href="#">Profile</a>
+    </nav>
+
+   <main>
+    <div class="container-fluid    ">
+        <div>
+            <label for="age">Type Your age:</label>
+            <input type="number" name="" id="age" class="form-control w-75 " required>
+            <button id="sub" onclick="verify()" class="sub">Submit</button>
+        </div>
+
+        <div class="d-flex flex-column align-content-center align-items-center    ">
+        <div class="card mt-3 " id="adult">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UDoTBFU6wceFU7HiqZs892MORJOcw0Hv8Q&usqp=CAU" 
+            alt="Card Image" 
+            style="width: 100%;height: 300px; ">
+            <div class="card-content">
+                <h2>You are Adult</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aut quis dolorem ipsum,
+                     error, nobis dignissimos quod quisquam debitis maxime
+                      laudantium? Quia beatae amet vitae.</p>
+                
+            </div>
+        </div> <!--first card-->
+
+        <div class="card mt-3 " id="teen">
+            <img src="https://pics.craiyon.com/2023-10-25/8e9f277ebc6e4f9287b6b8246ef608a1.webp" alt="Card Image" style="width: 100%; height: 300px;">
+            <div class="card-content">
+                <h2>You are teen</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aut quis dolorem ipsum,
+                    error, nobis dignissimos quod quisquam debitis maxime
+                     laudantium? Quia beatae amet vitae. </p>
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    </div>
+</main>
+
+    <footer class="position-absolute  " >
+        
+            <span>&copy;Copyright</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Impedit unde temporibus dolorem! Corrupti et ea unde placeat at 
+                 reiciendis laboriosam. Sed repellat vero quas distinctio.</p>
+        
+    </footer>
+
+    
+    
+    <script src="/Assignment/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
